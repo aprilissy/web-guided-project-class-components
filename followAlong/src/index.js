@@ -49,7 +49,7 @@ class App extends React.Component {
 
   handleToggleItem = (itemId)=>{
     this.setState({
-      groceries:
+      groceries:this.state.groceries
     })
   }
 
