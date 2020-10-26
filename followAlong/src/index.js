@@ -9,7 +9,7 @@ const groceries = [
   {
     name: 'Bananas',
     id: 123,
-    purchased: MediaStreamTrackAudioSourceNode
+    purchased: true
   },
   {
     name: 'Torillas',
