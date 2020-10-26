@@ -4,7 +4,7 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      name: "Allison"
+      name: "Warren"
     }
   }
 
@@ -14,6 +14,7 @@ class App extends React.Component {
     return (
       <div>
         <h1>Hello {name}</h1>
+        <button onClick={handleChange}>Change To Different Name</button>
       </div>
     );
   }
