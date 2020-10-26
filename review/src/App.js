@@ -3,9 +3,10 @@ import React from "react";
 class App extends React.Component {
 
   render() {
+    const name = "Christ";
     return (
       <div>
-        <h1>Hello Chris</h1>
+        <h1>Hello {name}</h1>
       </div>
     );
   }
