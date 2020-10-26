@@ -70,7 +70,7 @@ class App extends React.Component {
            <h1>Shopping List</h1>
            <ListForm />
          </div>
-        <GroceryList handleToggleItem={this.handleToggleItem} groceries={this.state.groceries} />
+        <GroceryList handleClearItems={this.clearItems} handleToggleItem={this.handleToggleItem} groceries={this.state.groceries} />
        </div>
     );
   }
