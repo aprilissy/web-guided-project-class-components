@@ -1,9 +1,14 @@
 import React from "react";
 
 class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      name: "Warren"
+    }
+  }
 
   render() {
-    const name = "Christ";
     return (
       <div>
         <h1>Hello {name}</h1>
