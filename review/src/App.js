@@ -18,7 +18,7 @@ class App extends React.Component {
     return (
       <div>
         <h1>Hello {name}</h1>
-        <button onClick={handleNameChange}>Change To Different Name</button>
+        <button onClick={this.handleNameChange}>Change To Different Name</button>
       </div>
     );
   }
