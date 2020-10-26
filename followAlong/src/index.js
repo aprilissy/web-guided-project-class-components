@@ -54,7 +54,7 @@ class App extends React.Component {
           return {
             name: 'Bananas',
             id: 123,
-            purchased: true
+            purchased: !item.purchased
           }
         } else {
           return item;
