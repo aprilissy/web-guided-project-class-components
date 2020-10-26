@@ -42,6 +42,9 @@ class App extends React.Component {
   // Constructor with state
   constructor() {
     super();
+    this.state = {
+      groceries:groceries
+    }
   }
 
   // Class methods to update state
