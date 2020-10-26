@@ -33,6 +33,9 @@ class App extends React.Component {
     return (
       <div>
         <Person name={this.state.name}/>
+        <Person name={this.state.name}/>
+        <Person name={this.state.name}/>
+        <Person name={this.state.name}/>
         <button onClick={this.handleNameChange}>Change To Different Name</button>
       </div>
     );
