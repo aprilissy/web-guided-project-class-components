@@ -47,7 +47,9 @@ class App extends React.Component {
     }
   }
 
-  
+  handleToggleItem = (itemId)=>{
+    console.log(itemId);
+  }
 
   // Class methods to update state
   render() {
@@ -57,7 +59,7 @@ class App extends React.Component {
            <h1>Shopping List</h1>
            <ListForm />
          </div>
-        <GroceryList groceries={this.state.groceries} />
+        <GroceryList handleToggleItem={handleToggleItem} groceries={this.state.groceries} />
        </div>
     );
   }
