@@ -1,7 +1,12 @@
 import React from "react";
 
 class ListForm extends React.Component {
-  // Constructor with state
+  constructor() {
+    super();
+    this.state = {
+      input: ""
+    }
+  }
 
   handleChanges = e => {
     // update state with each keystroke
@@ -9,7 +14,7 @@ class ListForm extends React.Component {
 
   // class property to submit form
   handleSubmit =  ()=>{
-    
+
   }
 
   render() {
