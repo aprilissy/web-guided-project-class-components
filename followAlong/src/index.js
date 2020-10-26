@@ -52,8 +52,7 @@ class App extends React.Component {
       groceries:this.state.groceries.map(item=>{
         if(item.id === 123) {
           return {
-            name: 'Bananas',
-            id: 123,
+            ...item,
             purchased: !item.purchased
           }
         } else {
