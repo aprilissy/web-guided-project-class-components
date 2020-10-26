@@ -18,7 +18,8 @@ class ListForm extends React.Component {
   // class property to submit form
   handleSubmit = (e)=>{
     e.preventDefault();
-    console.log(this.state.input);
+    // console.log(this.state.input);
+    this.props.handleAddItem(this.state.input);
   }
 
   render() {
