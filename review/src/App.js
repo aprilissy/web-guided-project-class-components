@@ -8,13 +8,17 @@ class App extends React.Component {
     }
   }
 
+  handleNameChange = () => {
+    console.log("here");
+  }
+
   render() {
     const { name } = this.state;
 
     return (
       <div>
         <h1>Hello {name}</h1>
-        <button onClick={handleChange}>Change To Different Name</button>
+        <button onClick={handleNameChange}>Change To Different Name</button>
       </div>
     );
   }
