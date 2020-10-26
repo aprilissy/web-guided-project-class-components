@@ -17,9 +17,11 @@ const AppFunc = () => {
     setName("Allison");
   };
 
+  const constName = "Chris";
+
   return (
     <div>
-      <h1>Hello Warren</h1>
+      <h1>Hello {constName}.</h1>
       {/* <Person name={name} />
       <button onClick={handleClick}>MAKE IT ALLISON!</button> */}
     </div>
