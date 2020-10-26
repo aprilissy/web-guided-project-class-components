@@ -14,14 +14,12 @@ const Person = (props) => {
 const AppFunc = () => {
   const [name, setName] = useState("Warren");
   const handleClick = () => {
-    setName("Waldo");
+    setName("Allison");
   };
 
   return (
     <div>
-      <h1>Hello {name}.</h1>
-      <p>THat is the best name ever {name}. Never change {name}!</p>
-      {/* <Person name={name} /> */}
+      <Person name={name} />
       <button onClick={handleClick}>MAKE IT ALLISON!</button>
     </div>
   );
