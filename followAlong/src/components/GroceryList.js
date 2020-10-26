@@ -8,7 +8,7 @@ const GroceryList = props => {
   return (
     <div className="shopping-list">
       {props.groceries.map(item => (
-        <Item handleToggleItem={handleToggleItem} key={item.id} item={item} />
+        <Item handleToggleItem={props.handleToggleItem} key={item.id} item={item} />
       ))}
       <button className="clear-btn">
         Clear Purchased
