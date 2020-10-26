@@ -64,7 +64,6 @@ class App extends React.Component {
 
 
   clearItems = () => {
-    console.log("here");
     this.setState({
       groceries:this.state.groceries.filter(item=>(!item.purchased))
     });
