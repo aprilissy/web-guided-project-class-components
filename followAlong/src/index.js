@@ -48,7 +48,9 @@ class App extends React.Component {
   }
 
   handleToggleItem = (itemId)=>{
-    console.log("Our item id:", itemId);
+    this.setState({
+      groceries:
+    })
   }
 
   // Class methods to update state
