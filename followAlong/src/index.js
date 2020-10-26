@@ -62,6 +62,11 @@ class App extends React.Component {
     })
   }
 
+
+  clearItems = () => {
+    console.log(this.state);
+  };
+
   // Class methods to update state
   render() {
     return (
