@@ -14,7 +14,7 @@ const Person = (props) => {
 const AppFunc = () => {
   const [name, setName] = useState("Warren");
   const handleClick = () => {
-    setName("Allison");
+    setName("Waldo");
   };
 
   return (
