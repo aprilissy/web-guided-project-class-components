@@ -1,5 +1,16 @@
 import React from "react";
 
+const Person = (props) => {
+  return (
+    <div>
+      <h1>Hello {props.name}!</h1>
+      <p>
+        {props.name} is a great name! Never change {props.name}.
+      </p>
+    </div>
+  );
+};
+
 class App extends React.Component {
   constructor() {
     super();
@@ -19,7 +30,7 @@ class App extends React.Component {
 
     return (
       <div>
-        <h1>Hello {name}</h1>
+        <Person name={this.state.name}/>
         <button onClick={this.handleNameChange}>Change To Different Name</button>
       </div>
     );
