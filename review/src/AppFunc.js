@@ -19,8 +19,9 @@ const AppFunc = () => {
 
   return (
     <div>
-      <Person name={name} />
-      <button onClick={handleClick}>MAKE IT ALLISON!</button>
+      <h1>Hello Warren</h1>
+      {/* <Person name={name} />
+      <button onClick={handleClick}>MAKE IT ALLISON!</button> */}
     </div>
   );
 };
