@@ -66,7 +66,8 @@ class App extends React.Component {
     this.setState({
       groceries:[...this.state.groceries, {
         name: name,
-        id: this.state.groceries.length
+        id: this.state.groceries.length,
+        purchased: false
       }]
     })
   }
@@ -83,7 +84,7 @@ class App extends React.Component {
       <div className="App">
         <div className="header">
            <h1>Shopping List</h1>
-           <ListForm />
+           <ListForm handleAddItem={handleAddItem}/>
          </div>
         <GroceryList handleClearItems={this.clearItems} handleToggleItem={this.handleToggleItem} groceries={this.state.groceries} />
        </div>
