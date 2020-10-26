@@ -6,7 +6,7 @@ class Person extends React.Component {
       <div>
         <h1>Hello {this.props.name}.</h1>
         <p>
-          {this.props.name} is an unbelievable name. Stunning! Never change,{" "}
+          {this.props.name} is an unbelievable name. Stunning! Never change,
           {this.props.name}.
         </p>
       </div>
