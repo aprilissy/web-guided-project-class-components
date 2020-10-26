@@ -9,7 +9,9 @@ class App extends React.Component {
   }
 
   handleNameChange = () => {
-    console.log("here");
+    this.setState({
+      name:"Allison"
+    })
   }
 
   render() {
