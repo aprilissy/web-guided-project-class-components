@@ -62,6 +62,15 @@ class App extends React.Component {
     })
   }
 
+  handleAddItem = (name) => {
+    this.setState({
+      groceries:[...this.state.groceries, {
+        name: name,
+        id: this.state.groceries.length
+      }]
+    })
+  }
+
   clearItems = () => {
     this.setState({
       groceries:this.state.groceries.filter(item=>(!item.purchased))
