@@ -20,8 +20,8 @@ const AppFunc = () => {
   return (
     <div>
       <h1>Hello {name}.</h1>
-      {/* <Person name={name} />
-      <button onClick={handleClick}>MAKE IT ALLISON!</button> */}
+      {/* <Person name={name} /> */}
+      <button onClick={handleClick}>MAKE IT ALLISON!</button>
     </div>
   );
 };
